@@ -1,7 +1,7 @@
 export async function GET(request: Request) {
   const users = [
     { id: 1, name: 'Alice' },
-    { id: 2, name: 'Bob' }
+    { id: 2, name: 'Bobby' }
   ];
   return Response.json(users);
 }
